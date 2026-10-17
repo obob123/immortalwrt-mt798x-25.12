@@ -77,7 +77,7 @@ jobs:
         if: steps.check.outputs.need_build == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: immortalwrt-25.12-rax3000m-firmware
+          name: immortalwrt-25.12-ax3000t-firmware
           path: openwrt/bin/targets/mediatek/filogic/
           if-no-files-found: warn
 
